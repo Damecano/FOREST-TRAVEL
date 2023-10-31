@@ -441,3 +441,21 @@ img.hover-shadow:hover{
     }
 }
 
+/* wallpaper_section------------------ */
+
+#wallpaper_section{
+    /* height: 90vh; */
+    background-image: url('./public/travel3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    padding: 100px;
+}
+#wallpaper_section div{
+    width: 350px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #0000007d;
+    background-color: #ffffff54;
+}
