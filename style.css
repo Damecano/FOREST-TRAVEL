@@ -594,3 +594,14 @@ footer li{
     display: flex;
     gap: 20px;
 }
+
+@media only screen and (max-width: 900px) {
+    footer{
+        display: block;
+        padding: 30px 30px;
+        gap: 20px;
+    }
+    footer div{
+        width: 100%;
+    }
+}
