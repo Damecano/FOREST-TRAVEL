@@ -69,4 +69,8 @@ $(".carousel").owlCarousel({
             nav: false
         }
     }
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 529feb741422062a1964d56464d201540db66539
