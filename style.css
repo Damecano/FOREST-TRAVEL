@@ -498,17 +498,13 @@ img.hover-shadow:hover {
 .carousel {
     max-width: 1200px;
     margin: auto;
-<<<<<<< HEAD
-=======
     padding: 0 30px;
->>>>>>> 529feb741422062a1964d56464d201540db66539
     width: 100%;
 }
 
 .carousel .card {
     color: #fff;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 50px;
     font-size: 18px;
     font-weight: 600;
@@ -547,7 +543,6 @@ img.hover-shadow:hover {
     background-image: url('./public/travel1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-=======
     margin: 20px 0;
     line-height: 250px;
     font-size: 90px;
@@ -575,7 +570,6 @@ img.hover-shadow:hover {
 
 .carousel .card-5 {
     background: #630460;
->>>>>>> 529feb741422062a1964d56464d201540db66539
 }
 
 .owl-dots {
@@ -589,18 +583,14 @@ img.hover-shadow:hover {
     margin: 0 5px;
     outline: none;
     border-radius: 14px;
-<<<<<<< HEAD
     border: 2px solid var(--priary) !important;
-=======
     border: 2px solid #0072bc !important;
->>>>>>> 529feb741422062a1964d56464d201540db66539
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
 .owl-dot.active,
 .owl-dot:hover {
-<<<<<<< HEAD
     background: var(--priary) !important;
 }
 
@@ -644,7 +634,54 @@ footer li{
         width: 100%;
     }
 }
-=======
-    background: #0072bc !important;
+/* CONATCT */
+
+#contact{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
 }
->>>>>>> 529feb741422062a1964d56464d201540db66539
+
+.contact_card{
+    width: 300px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    background-color: var(--priary);
+    margin-bottom: 15px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px #00000484;
+}
+.contact_card img{
+    height: 40px;
+}
+
+.contact_card a{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    color: var(--dark-primary);
+    font-size: 18px;
+}
+
+#contact iframe{
+    border: 5px solid var(--priary);
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+    #contact{
+        display: block;
+        padding: 30px;
+    }
+
+    #contact iframe{
+        width: 100%;
+    }
+    .contact_card{
+        width: 100%;
+    }
+}
